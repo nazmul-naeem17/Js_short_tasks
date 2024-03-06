@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <script>
+        const weight = prompt("Enter your weight in kilograms:");
+        const height = prompt("Enter your height in centimeters:");
+        const heightM = height / 100;
+        const bmi = (weight / (heightM * heightM)).toFixed(2);
+        alert(`Your BMI is: ${bmi}`);
+    </script>
+    
+</body>
+</html>
